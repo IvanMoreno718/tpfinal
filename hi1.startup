@@ -1,0 +1,12 @@
+ip a add 10.23.144.12/16 dev eth0
+ip route add default via 10.23.255.254
+
+#DNS Conf
+chown -R bind:bind /etc/bind
+chown -R bind:bind /etc/bind/rndc.key
+
+mkdir -p /var/log/bind
+touch /var/log/bind/bind.log
+chown -R bind:bind /var/log/bind
+
+systemctl start bind9

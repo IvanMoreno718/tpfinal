@@ -1,0 +1,8 @@
+ip a add 10.23.255.254/16 dev eth0
+ip a add 192.168.50.162/30 dev eth1
+ip a add 192.168.50.166/30 dev eth2
+
+iptables -t nat -A POSTROUTING -o eth3 -j MASQUERADE
+
+systemctl start quagga
+systemctl start zebra

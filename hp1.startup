@@ -1,0 +1,2 @@
+ip a add 172.17.240.6/23 dev eth0
+ip route add default via 172.17.241.254

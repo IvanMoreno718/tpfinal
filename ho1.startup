@@ -1,0 +1,2 @@
+ip a add 10.200.5.77/19 dev eth0
+ip route add default via 10.200.31.254

@@ -1,0 +1,7 @@
+ip a add 192.168.54.126/25 dev eth0
+ip a add 192.168.50.130/30 dev eth1
+ip a add 192.168.50.145/30 dev eth2
+ip a add 192.168.50.217/30 dev eth3
+
+systemctl start quagga
+systemctl start zebra
