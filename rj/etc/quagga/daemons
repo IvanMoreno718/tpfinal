@@ -1,5 +1,5 @@
 zebra=yes
-ospfd=no
+ospfd=yes
 bgpd=no
-ripd=yes
+ripd=no
 isisd=no
