@@ -10,9 +10,9 @@ $origin moreno.izo.
 
 @ IN NS hi1.moreno.izo.
 
-ha1 IN  A 172.16.0.1
-ha2 IN  A 172.16.0.2
-ra0 IN  A 172.16.255.254
+ha1 IN  A 172.25.0.1
+ha2 IN  A 172.25.0.2
+ra0 IN  A 172.25.255.254
 ra1 IN  A 192.168.50.129
 ra2 IN  A 192.168.50.142
 ra3 IN  A 192.168.50.213

@@ -6,3 +6,4 @@ iptables -t nat -A POSTROUTING -o eth3 -j MASQUERADE
 
 systemctl start quagga
 systemctl start zebra
+systemctl start apache2
