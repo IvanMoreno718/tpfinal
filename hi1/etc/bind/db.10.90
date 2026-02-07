@@ -1,0 +1,12 @@
+$TTL    604800
+@       IN      SOA     LE.moreno.izo. root.moreno.izo. (
+                              1         ; Serial
+                         604800         ; Refresh
+                          86400         ; Retry
+                        2419200         ; Expire
+                         604800 )       ; Negative Cache TTL
+; Name Server
+@       IN      NS      LE.moreno.izo.
+; PTR records
+254.127     IN      PTR     re0.moreno.izo.
+1.64       IN      PTR     he1.moreno.izo.

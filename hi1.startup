@@ -10,3 +10,4 @@ touch /var/log/bind/bind.log
 chown -R bind:bind /var/log/bind
 
 systemctl start bind9
+systemctl start bind
