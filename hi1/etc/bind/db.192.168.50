@@ -34,6 +34,8 @@ $TTL    604800
 173     IN      PTR     rh2.moreno.izo.
 154     IN      PTR     rh3.moreno.izo.
 165     IN      PTR     rh4.moreno.izo.
+162     IN      PTR     ri1.moreno.izo.
+166     IN      PTR     ri2.moreno.izo.
 214     IN      PTR     rj1.moreno.izo.
 193     IN      PTR     rj2.moreno.izo.
 177     IN      PTR     rj3.moreno.izo.
