@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-widht" , initial-scale="1.0">
+    <title>Inicio de sesion</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <h1 class="morenoizo">Moreno.izo</h1>
+    <div class="texto_usuario">
+    <input class="usuario" type="text" id="usuario" placeholder="Nombre de usuario">
+    </div>
+    <div class="texto_contraseña">
+    <input class="contraseña" type="password" id="contraseña" placeholder="Contraseña">
+    </div>
+    <div class="boton_confirmar">
+    <button class="confirmar" onclick="login()">Confirmar</button>
+    </div>
+
+<script>
+    function login() {
+        var usuario = document.getElementById("usuario").value;
+        var contraseña = document.getElementById("contraseña").value;
+
+        if (usuario === "moreno" && contraseña === "izo") {
+            window.location.href = "bienvenido.html";
+        } else alert("Usuario o contraseña incorrectos")
+    }
+</script>
+</body>
+</html>
